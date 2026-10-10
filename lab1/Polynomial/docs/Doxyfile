@@ -1,0 +1,24 @@
+PROJECT_NAME           = Polynomial
+PROJECT_BRIEF          = Многочлен от одной переменной с вещественными коэффициентами
+OUTPUT_DIRECTORY       = docs
+OUTPUT_LANGUAGE        = Russian
+
+INPUT                  = include src
+RECURSIVE              = YES
+FILE_PATTERNS          = *.h *.cpp
+EXCLUDE_PATTERNS       = */build/* */tests/*
+
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+GENERATE_LATEX         = NO
+
+SOURCE_BROWSER         = YES
+REFERENCED_BY_RELATION = YES
+REFERENCES_RELATION    = YES
+
+HAVE_DOT               = NO
+CLASS_DIAGRAMS         = YES
