@@ -81,3 +81,9 @@ Testing/
 x64/
 Debug/
 Release/
+
+# Doxygen
+lab1/Tictactoe/docs/html/
+lab1/Polynomial/docs/html/
+lab1/Tictactoe/docs/latex/
+lab1/Polynomial/docs/latex/
